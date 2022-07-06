@@ -13,7 +13,6 @@
  --debug: 1px solid red;
  /* PADDINGS */
  --content-padding: 1.5rem;
- --text-padding: 0.5rem;
 
  /* GENERAL RULES */
  font-size: var(--font-medium);
