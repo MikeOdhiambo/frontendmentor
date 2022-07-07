@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
+This is my solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
 ## Table of contents
 
@@ -8,6 +8,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
+  - [Challenges](#challenges)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -21,18 +22,23 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-For this project I practiced my skills with CSS custom properties and the mobile-first approach. I also wanted to challenge my Vanilla CSS knowledge, without using any frameworks or libraries.
+For this project I practiced my skills on CSS custom properties and the mobile-first approach. I also wanted to challenge my Vanilla CSS knowledge, without using any frameworks or libraries.
 
 ### Screenshot
 
 ![](./images/solution.png)
 
-This is a screenshot of my solution on a desktop
+A desktop preview of my solution
+
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+### Challenges
+I had some trouble nailing the preview-to-solution screenshot proportions
+
 
 ## My process
 
