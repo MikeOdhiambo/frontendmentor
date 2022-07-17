@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root{
+    /* COLOURS */
+ --primary-cyan:hsl(178, 100%, 50%);
+ --primary-soft-blue:hsl(215, 51%, 70%);
+ --dark-blue-main: hsl(217, 54%, 11%);
+ --dark-blue-card: hsl(216, 50%, 16%);
+ --dark-blue-line: hsl(215, 32%, 27%);
+ --white: hsl(0, 0%, 100%);
+ /* FONTS */
+ --font-medium: 18px;
+ /* BORDERS */
+ --card-radius: 1rem;
+ --img-radius: 0.3rem;
+ --debug: 1px solid red;
+ /* PADDINGS */
+ --content-padding: 1rem;
+
+ /* GENERAL RULES */
+ font-size: var(--font-medium);
+}
+
+/* RESETS */
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: var(--white);
+    line-height: 1.5;
+    font-size: 0.75rem;
+    opacity: 0.5;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--dark-blue-main);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* MAIN STYLES */
+
+.main{
+    max-width: 70%;
+    padding: var(--content-padding);
+    background-color: var(--dark-blue-card);
+    border-radius: var(--card-radius);
+
+}
+
+@media only screen and (min-width: 425px){
+    .main{
+        max-width: 60%;
+    }
+}
+@media only screen and (min-width: 768px){
+    .main{
+        max-width: 35%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .main{
+        max-width: 25%;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .main{
+        max-width: 20%;
+    }
+}
+
+.main-img img{
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    border-radius: var(--img-radius);
+}
+.main-dets{
+    max-height: 45%;
+}
+.main-dets-text{
+    /* max-width: 100%; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 0.8rem;
+}
+.main-dets-text h1{
+    font-size: 0.9rem;
+}
+
+.main-dets-nft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.nft-price{
+    font-weight: 600;
+    color: #00FFF8;
+}
+.main-dets-nft span{
+    display: flex;
+    align-items: center;
+}
+.main-dets-nft span img{
+    margin-right: 0.5rem;
+}
+.main-dets-info{
+    max-width: 100%;
+    border-top: 1px solid var(--dark-blue-line);
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.main-dets-info p{
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+.main-dets-info img{
+    max-width: 14%;
+    margin-right: 0.8rem;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+}
+.main-dets-info span{
+    opacity: 0.5;
+    margin-right: 0.2rem;
+}
