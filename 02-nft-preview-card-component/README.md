@@ -33,8 +33,8 @@ A desktop preview of my solution
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-using-css-grid-IV0I5Utrn5)
-- Live Site URL: [Live Site](https://poulpe-ppc.netlify.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-component-f5nnzFfvGy)
+- Live Site URL: [Live Site](https://poulpe-nftppc.netlify.app/)
 
 ### Challenges
 This was my first time starting with a mobile-first design approach. While it tooks some getting used to, it made working media queries less hectic.
