@@ -33,8 +33,8 @@ A desktop preview of my solution
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-using-css-grid-IV0I5Utrn5)
+- Live Site URL: [Add live site URL here](https://poulpe-ppc.netlify.app/)
 
 ### Challenges
 I had some trouble nailing the preview-to-solution screenshot proportions
