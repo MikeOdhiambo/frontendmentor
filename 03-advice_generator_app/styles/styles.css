@@ -134,9 +134,11 @@ body{
     cursor: pointer;
     transition: all 0.18s ease-in-out;
 }
-.adv-trig:hover{
+#adv-trig:hover{
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 0px 17px var(--neon-green);
+    -webkit-box-shadow: 0 0px 17px var(--neon-green);
+    -moz-box-shadow: 0 0px 17px var(--neon-green);
     transform: scale(1.02);
 }
 #adv-trig img{
