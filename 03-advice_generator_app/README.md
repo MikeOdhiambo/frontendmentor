@@ -1,6 +1,8 @@
 # Frontend Mentor - Advice generator app solution
 
-This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+My solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
+
+The task is to create a card with advice generated from [Advice Slip API](https://api.adviceslip.com).
 
 ## Table of contents
 
@@ -32,8 +34,8 @@ A desktop screenshot of my solution.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/advice-generator-app-vWII-3BMV8)
+- Live Site URL: [Live Site](https://poulpe-advgen.netlify.app/)
 
 ## My process
 
@@ -48,10 +50,10 @@ A desktop screenshot of my solution.
 
 ### Continued development
 
-I found that I needed to revisit and practice more working with background images and CSS shadows .
+I found that I needed to revisit and practice more working with background images and CSS shadows.
 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@MikeOdhiambo](https://www.frontendmentor.io/profile/MikeOdhiambo)
+- Twitter - [@__poulpe](https://twitter.com/__poulpe)
