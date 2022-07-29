@@ -1,12 +1,13 @@
-// import math
 
 const days = document.getElementsByClassName("bar");
+const barVal = document.getElementsByClassName("bar-val");
 
 // Run functions on window load
 window.onload = function(){
     getDay(days);
     getHeights(days);
-}
+    toggle(days);
+};
 
 // Change the colour of the bar according to the day
 function getDay(days){
@@ -16,8 +17,7 @@ function getDay(days){
         day = 0;
     }
     days[day].style.backgroundColor = "var(--cyan)";
-}
-
+};
 // Load JSON file and use it to calculate bar heights
 function getHeights(days){
     fetch('../data.json')
@@ -30,7 +30,22 @@ function getHeights(days){
     .then(info => {
         for (let i = 0; i < days.length; i++){
             days[i].style.height = `${Math.floor(info[i].amount/5)}em`;
+            days[i].children[0].innerHTML = `$${info[i].amount}`;
         }
     })
     .catch(error => console.log(error));
+};
+
+// Toggle expenditure on click
+function toggle(days){
+    for (let i = 0; i < days.length; i++){
+        days[i].addEventListener('click', ()=>{
+        days[i].children[0].classList.toggle("show");       
+    })
 }
+}
+
+
+// days[0].addEventListener('click', ()=>{
+//     days[0].children[0].classList.toggle("show");
+// })
