@@ -2,7 +2,7 @@
 const days = document.getElementsByClassName("bar");
 const barVal = document.getElementsByClassName("bar-val");
 
-// Run functions on window load
+// ENTRY POINT
 window.onload = function(){
     getDay(days);
     getHeights(days);
@@ -45,7 +45,3 @@ function toggle(days){
 }
 }
 
-
-// days[0].addEventListener('click', ()=>{
-//     days[0].children[0].classList.toggle("show");
-// })
