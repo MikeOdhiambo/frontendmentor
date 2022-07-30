@@ -14,7 +14,7 @@ function getDay(days){
     const date = new Date();
     let day = date.getDay() - 1;
     if (day < 0){
-        day = 0;
+        day = 6;
     }
     days[day].style.backgroundColor = "var(--cyan)";
 };
