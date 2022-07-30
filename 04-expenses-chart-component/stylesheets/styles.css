@@ -155,7 +155,7 @@ ul li p{
     color: var(--medium-brown);
 }
 .tot p:last-child{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: var(--dark-brown);
     font-weight: var(--bold-weight);
 }
