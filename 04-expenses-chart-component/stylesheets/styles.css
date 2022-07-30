@@ -197,8 +197,8 @@ ul li p{
 }
 @media only screen and (min-width: 1440px){
     .card{
-        min-width: 33%;
-        margin-top: 5%;
+        min-width: 40%;
+        margin-top: 20%;
 }
     ul{
         gap: 1rem;
