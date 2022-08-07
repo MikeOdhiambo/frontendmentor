@@ -20,7 +20,7 @@
 
     /* PADDINGS */
     --card-padding: 2rem;
-    --item-padding: 0.4rem;
+    --item-padding: 0.5rem;
     --input-padding: 0.5rem;
 
     /* OTHER VARIABLES*/
@@ -76,13 +76,14 @@ li{
     text-align: center;
     padding: var(--item-padding);
     border-radius: var(--item-radius);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 ul > input{
     background-color: var(--light-grayish-cyan);
     color: var(--dark-grayish-cyan);
     border-radius: var(--item-radius);
+    height: inherit;
     text-align: center;
     color: var(--very-dark-cyan);
 }
@@ -91,20 +92,19 @@ ul> input:focus{
 }
 button{
     width: 100%;
-    height: 2.5rem;
+    height: 3rem;
     background-color: var(--strong-cyan);
     border: none;
     border-radius: var(--item-radius);
     color: var(--very-dark-cyan);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: var(--medium-weight);
-    margin-top: 1rem;
+    margin-top: auto;
     cursor: pointer;
 
 }
 
 .card-dets-inpt > p, .card-tips > p{
-    font-size: 0.8rem;
     margin-bottom: 0.5rem;
     opacity: 0.7;
     font-weight: var(--medium-weight);
@@ -134,9 +134,10 @@ button{
 }
 
 .card-dets{
+    flex: 1 1 0;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2.5rem;
 }
 .pple > input{
     background-image: url(/images/icon-person.svg);
@@ -150,8 +151,9 @@ button{
     background-position-x: 1rem;
 }
 .card-summ{
+    flex: 1 1 0;
     background-color: var(--very-dark-cyan);
-    padding: 1.5rem 1em;
+    padding: 2.5rem;
     border-radius: 0.7rem;
     display: flex;
     flex-direction: column;
@@ -167,12 +169,11 @@ button{
     flex-direction: column;
 }
 .card-sum-txt > p:first-child{
-    font-size: 0.9rem;
     font-weight: var(--medium-weight);
     color: var(--white);
 }
 .card-sum-txt > p:last-child{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--light-grayish-cyan);
     opacity: 0.5;
 }
@@ -180,4 +181,39 @@ button{
     color: var(--strong-cyan);
     text-align: center;
     font-size: 1.8rem
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 426px){
+    .main{
+        max-width: 80%;
+    }
+}
+@media only screen and (min-width: 768px){
+    .main{
+        max-width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    input{
+    height: 3rem;
+
+    }
+    .main{
+        max-width: 68%;
+    }
+    .main-card{
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 3rem;
+
+    }
+    ul{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card-sum-fld > h2{
+    font-size: 2.5rem
+}
 }
