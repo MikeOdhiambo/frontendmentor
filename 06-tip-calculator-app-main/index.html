@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./stylesheets/styles.css">
+  <title>Tip calculator app</title>
+</head>
+<body>
+  <main class="main">
+    <!-- CARD TITLE -->
+    <div class="main-title">
+      <h1>SPLI</h1>
+      <h1>TTER</h1>
+    </div>
+    <!-- CARD -->
+    <div class="main-card">
+      <!-- INPUT AREA -->
+      <div class="card-dets">
+
+        <div class="card-dets-inpt bill">
+          <p>Bill</p>
+          <input class="bill" type="text">
+        </div>
+
+        <div class="card-tips">
+          <p>Select Tip %</p>
+          <ul class="card-tips-opts">
+            <li class="tip-prcnt five">5%</li>
+            <li class="tip-prcnt ten">10%</li>
+            <li class="tip-prcnt fiftn">15%</li>
+            <li class="tip-prcnt twnty-fv">25%</li>
+            <li class="tip-prcnt ffty">50%</li>
+            <input class="cstm" type="text" placeholder="Custom">
+            <!-- <li>
+              <input type="text" placeholder="Custom">
+            </li> -->
+          </ul>
+        </div>
+
+        <div class="card-dets-inpt pple">
+          <p>Number of People</p>
+          <input class="no-pple" type="text">
+        </div>
+
+      </div>
+
+      <!-- SUMMARY AREA -->
+      <div class="card-summ">
+        <div class="card-sum-fld">
+          <div class="card-sum-txt">
+            <p>Tip Amount</p>
+            <p>/ person</p>
+          </div>
+          <h2 class="tip-amnt">$4.27</h2>
+        </div>
+
+        <div class="card-sum-fld">
+          <div class="card-sum-txt">
+            <p>Total</p>
+            <p>/ person</p>
+          </div>
+          <h2 class="ttl-amt">$32.79</h2>
+        </div>
+
+        <button class="reset">RESET</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
