@@ -151,7 +151,7 @@ button{
 }
 .card-summ{
     background-color: var(--very-dark-cyan);
-    padding: 1.5em;
+    padding: 1.5rem 1em;
     border-radius: 0.7rem;
     display: flex;
     flex-direction: column;
