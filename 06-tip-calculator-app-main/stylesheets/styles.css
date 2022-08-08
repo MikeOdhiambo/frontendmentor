@@ -104,11 +104,7 @@ button{
 
 }
 
-.card-dets-inpt > p, .card-tips > p{
-    margin-bottom: 0.5rem;
-    opacity: 0.7;
-    font-weight: var(--medium-weight);
-}
+
 .main{
     width: 100%;
     display: flex;
@@ -139,17 +135,49 @@ button{
     flex-direction: column;
     gap: 2.5rem;
 }
+
+.card-dets-inpt > p, .card-tips > p{
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+    font-weight: var(--medium-weight);
+}
+.tip-active{
+    background-color: var(--strong-cyan);
+    color: var(--very-dark-cyan);
+}
+.pple{
+    position: relative;
+}
+
+
 .pple > input{
     background-image: url(/images/icon-person.svg);
 }
-.bill > input{
+.bl > input{
     background-image: url(/images/icon-dollar.svg);
 }
-.pple > input, .bill > input{
+.pple > input, .bl > input{
     background-repeat: no-repeat;
     background-position: left;
     background-position-x: 1rem;
 }
+
+/* Show error on incorrect input */
+.error{
+    position: absolute;
+    font-size: 0.75rem;
+    top: 0;
+    right: 0;
+    color: orangered;
+}
+.error ~ input:focus{
+    outline: none;
+    border: 2px solid orangered;
+}
+.error::before{
+    content: "Can't be zero";
+}
+
 .card-summ{
     flex: 1 1 0;
     background-color: var(--very-dark-cyan);
@@ -202,6 +230,10 @@ button{
     }
     .main{
         max-width: 68%;
+        gap: 3rem;
+    }
+    .main-title{
+        line-height: 2.5rem;
     }
     .main-card{
         flex-direction: row;
