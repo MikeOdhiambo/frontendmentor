@@ -30,8 +30,8 @@ Users should be able to:
 A desktop screenshot of my solution.
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontent Mentor]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/tip-calculator-app-with-vanilla-html-css-and-js-Uz8xP6PqXK))
+- Live Site URL: [Live Site]([https://your-live-site-url.com](https://poulpe-tipcalc.netlify.app/))
 
 ## My process
 
@@ -46,6 +46,4 @@ A desktop screenshot of my solution.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@MikeOdhiambo](https://www.frontendmentor.io/profile/MikeOdhiambo)
