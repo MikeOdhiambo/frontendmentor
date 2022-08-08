@@ -46,7 +46,7 @@ function main(){
             })
         }
         if (cstmPrcnt.value){
-            tipVal = Number(cstmPrcnt.value);
+            tipVal = (Number(cstmPrcnt.value) + 100) / 100;
         }
         // console.log(billVal, ppleVal, tipVal);
 
@@ -63,12 +63,14 @@ function getTip(total, tip, num){
     if (num < 1){
         return 0.00;
     }
-    return (((total + tip) - total) / num).toFixed(2)
+    let ttlAmt = total * tip;
+    return ((ttlAmt - total) / num).toFixed(2);
 }
 function getTtl(total, tip, num){
     if (num < 1){
         return 0.00;
     }
-    return ((total + tip) / num).toFixed(2)
+    let ttlAmt = total * tip;
+    return (ttlAmt / num).toFixed(2)
     
 }
