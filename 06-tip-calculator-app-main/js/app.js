@@ -55,10 +55,16 @@ function main(){
 
         eachTip.textContent = psnTip;
         eachTtl.textContent = psnTtl;
+
+        // Reset all fields
+        reset.addEventListener("click", (e)=>{
+            e.preventDefault()
+            resetFlds()
+        })
     })
 }
 
-// Calculate totals
+// Calculate individual tip
 function getTip(total, tip, num){
     if (num < 1){
         return 0.00;
@@ -66,6 +72,8 @@ function getTip(total, tip, num){
     let ttlAmt = total * tip;
     return ((ttlAmt - total) / num).toFixed(2);
 }
+
+// Calculate individual total
 function getTtl(total, tip, num){
     if (num < 1){
         return 0.00;
@@ -73,4 +81,12 @@ function getTtl(total, tip, num){
     let ttlAmt = total * tip;
     return (ttlAmt / num).toFixed(2)
     
+}
+// Handle field reset
+function resetFlds(){
+    eachTip.textContent = "0.00";
+    eachTtl.textContent = "0.00";
+    cstmPrcnt.value = "";
+    bill.value = "";
+    noOfPple.value = "";
 }

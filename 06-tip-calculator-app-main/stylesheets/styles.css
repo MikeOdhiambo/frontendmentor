@@ -210,6 +210,9 @@ button{
     text-align: center;
     font-size: 1.8rem
 }
+#ttl-amt::before, #tip-amt::before{
+    content: "$";
+}
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 426px){
