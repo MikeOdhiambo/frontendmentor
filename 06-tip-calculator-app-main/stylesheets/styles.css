@@ -50,6 +50,10 @@ input:focus{
     outline: none;
     border: 2px solid var(--strong-cyan);
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+     -webkit-appearance: none;
+    }
 
 
 /* MAIN STYLES */
@@ -79,11 +83,19 @@ li{
     font-size: 1.5rem;
     cursor: pointer;
 }
-ul > input{
+li:last-child{
+    position: relative;
+    padding: 0;
+    
+}
+li > input{
+    position: absolute;
+    left: 0;
+    top: 0;
     background-color: var(--light-grayish-cyan);
     color: var(--dark-grayish-cyan);
-    border-radius: var(--item-radius);
     height: inherit;
+    border-radius: var(--item-radius);
     text-align: center;
     color: var(--very-dark-cyan);
 }
