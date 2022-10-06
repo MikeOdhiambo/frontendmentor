@@ -74,6 +74,7 @@ header{
 	align-items: center;
 }
 .nav{
+	position: relative;
 	width: 100%;
 	/* min-height: 90vh; */
 	display: flex;
@@ -81,6 +82,7 @@ header{
 	gap: 45%;
 	margin: 0 auto;
 	padding: 2.5rem 1.5rem;
+	background-color: black;
 }
 .logo{
 	flex-basis: 45%;
@@ -97,6 +99,22 @@ header{
 	border: 3px solid var(--white);
 	margin-top: 30%;
 	padding: 1rem;
+}
+.dropdown{
+	position: absolute;
+	bottom: -10%;
+	left: 0;
+	width: 100%;
+	height: 90vh;
+	background-color: var(--black);
+	font-family: var(--josefin-font);
+	font-weight: var(--josefin-weight);
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2.2rem;
+	padding: 10rem 0 10rem 2rem;
 }
 
 /* MAIN SECTION */
