@@ -23,14 +23,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Screenshot.png)
+A screenshot to my solution.
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution]()
+- Live Site URL: [Live Site](https://poulpe-loopstudios.netlify.app/)
 
 ## My process
 
@@ -45,6 +46,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@MikeOdhiambo](https://www.frontendmentor.io/profile/MikeOdhiambo)
 
