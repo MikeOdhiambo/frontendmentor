@@ -30,7 +30,7 @@ A screenshot to my solution.
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw/hub/responsive-landing-page-using-css-flexbox-and-grid-SzTrth6FD-)
 - Live Site URL: [Live Site](https://poulpe-loopstudios.netlify.app/)
 
 ## My process
